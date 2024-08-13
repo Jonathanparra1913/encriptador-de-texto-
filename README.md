@@ -1,0 +1,1 @@
+enriptador de texto
