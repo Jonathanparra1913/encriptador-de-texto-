@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header">
+        <img class= "header__logo" src="./imagenes/logo.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+
+            <div class="left"><textarea id="ingresoTexto" class="ingreso__texto" placeholder="ingresa texto aqui"></textarea>
+                 <div class="left__footer">
+        
+                    <img src="./imagenes/signo exclamacion.png"alt="">
+                    <span class="left__info"> letras minusculas y sin acentos</span>
+                    <div class="left__botones">
+                    <button id="botonEncriptar" class="boton__encriptar">Encriptar</button>
+                    <button id="botonDesencriptar" class="boton__desencriptar">Desencriptar</button>
+                    </div>
+                 </div>
+            </div>
+            <div id="rigth" class="rigth ajustar">
+               <img  id= "muñeco"class="Muñeco" src="./imagenes/Muñeco.png"
+                alt=""> 
+
+                 <textarea id="mensajeFinal" class="mensaje__final ajustar" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id= "rigthInfo" class="rigth__info">ingresa el texto que deseas 
+                encriptar o desencriptar </p>
+                <button id= "botonCopiar"class="boton__copiar oculto ">copiar</button>
+            
+            </div>
+        </div>
+ </main>
+ <footer>Desarrollado por jonathan Parra M 2024</footer>
+ <script src ="./js/script.js"></script>
+   
+</body>
+</html>
